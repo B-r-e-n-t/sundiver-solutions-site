@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { Button } from "./Button";
@@ -18,13 +18,18 @@ function Navbar() {
     }
   };
 
+  // gets rid of contact button when resizing
+  useEffect(() => {
+    showButton();
+  }, []);
+
   window.addEventListener("resize", showButton);
 
   return (
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img src="IMG-7663.jpg" className="logo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -32,7 +37,11 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/portfolio"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Portfolio
               </Link>
             </li>

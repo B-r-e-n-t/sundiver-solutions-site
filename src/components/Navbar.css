@@ -19,7 +19,7 @@
 }
 
 .navbar-logo {
-  justify-self: start;
+  /* justify-self: start; */
   cursor: pointer;
   text-decoration: none;
   display: flex;
@@ -29,6 +29,8 @@
 .logo {
   width: 17vw;
   height: 12vh;
+  min-width: 150px;
+  min-height: 75px;
 }
 
 .fa-typo3 {
@@ -79,7 +81,7 @@
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
-    position: relative;
+    /* position: relative; */
   }
 
   .nav-menu {
@@ -115,12 +117,12 @@
     border-radius: 0;
   }
 
-  .navbar-logo {
-    /* position: absolute; */
+  /* .navbar-logo {
+    position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
-  }
+    transform: translate(20px, 10px);
+  } */
 
   .menu-icon {
     display: block;
