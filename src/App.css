@@ -8,7 +8,7 @@
 .portfolio,
 .services,
 .about-us,
-.contact-us {
+.contact-us .architectural {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .services {
-  /* background-image: url("/images/img-2.jpg"); */
+  background-image: url("/Users/JBMSH/repos/sundiver-solutions-site/public/images/james-day-5YWf-5hyZcw-unsplash.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .portfolio {
-  /* background-image: url("/images/img-1.jpg"); */
+  background-image: url("/Users/JBMSH/repos/sundiver-solutions-site/public/images/james-day-5YWf-5hyZcw-unsplash.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,7 +35,43 @@
 }
 
 .contact-us {
-  /* background-image: url("/images/img-8.jpg"); */
+  background-image: url("/Users/JBMSH/repos/sundiver-solutions-site/public/images/james-day-5YWf-5hyZcw-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.about-us {
+  background-image: url("/Users/JBMSH/repos/sundiver-solutions-site/public/images/james-day-5YWf-5hyZcw-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.architectural {
+  background-image: url("/Users/JBMSH/repos/sundiver-solutions-site/public/images/james-day-5YWf-5hyZcw-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.website {
+  background-image: url("/Users/JBMSH/repos/sundiver-solutions-site/public/images/james-day-5YWf-5hyZcw-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.software {
+  background-image: url("/Users/JBMSH/repos/sundiver-solutions-site/public/images/james-day-5YWf-5hyZcw-unsplash.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

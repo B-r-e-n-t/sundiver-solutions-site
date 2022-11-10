@@ -6,7 +6,7 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      {/* <video src="public/Jigsaw Puzzle - 55496.mp4" autoPlay loop muted /> */}
+      <video src="images/Jigsaw Puzzle - 55496.mp4" autoPlay loop muted />
       <h1>Fullfilling all your Programming Needs</h1>
       <p>
         From Fractional CTO services to web development, we give your ideas
