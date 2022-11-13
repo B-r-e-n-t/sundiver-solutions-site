@@ -1,0 +1,27 @@
+.footer-container {
+  background-color: #242424;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-contact-us {
+  display: flex;
+  /* justify-content: flex-start;
+  flex-direction: column; */
+  /* align-items: center;
+  text-align: center; */
+  margin-bottom: 24px;
+  width: 50%;
+  padding: 24px;
+  color: white;
+}
+
+.footer-link-items {
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  text-decoration: none;
+}

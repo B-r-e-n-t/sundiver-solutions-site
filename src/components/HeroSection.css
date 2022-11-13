@@ -20,12 +20,18 @@ video {
 }
 
 .hero-container > h1 {
-  color: black;
+  /* background-color: white;
+  opacity: 40%; */
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
   font-size: 75px;
   margin-top: -125px;
 }
 
 .hero-container > p {
+  /* background-color: white;
+  opacity: 40%; */
   margin-top: 8px;
   color: black;
   font-size: 32px;

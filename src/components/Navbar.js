@@ -30,7 +30,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <img src="images/IMG-7663.jpg" className="logo" />
+            <img src="/images/logo.jpg" className="logo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -73,7 +73,7 @@ function Navbar() {
               </Link>
             </li> */}
           </ul>
-          {button && <Button buttonStyle="btn--outline">CONTACT US</Button>}
+          {button && <Button buttonStyle="btn--outline-nav">CONTACT US</Button>}
         </div>
       </nav>
     </>
