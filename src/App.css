@@ -80,4 +80,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 200px;
+}
+
+.services-wrap > p {
+  padding-top: 50px;
+  width: 100vh;
+  display: flex;
+  margin: auto;
+}
+
+.form-intro {
+  display: flex;
+  padding: 50px;
+  margin: auto;
+  width: 100vh;
 }

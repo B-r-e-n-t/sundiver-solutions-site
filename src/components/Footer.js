@@ -7,10 +7,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-contact-us">
-        <p className="footer-contact-us-heading">
-          Do you have a technology obstacle standing in your way of making your
-          idea a reality? Request a call back today!
-        </p>
+        <p className="footer-contact-us-heading">Request a call back today!</p>
         <form>
           <input
             type="name"
