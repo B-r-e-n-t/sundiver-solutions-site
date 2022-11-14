@@ -1,0 +1,31 @@
+.benefits__cards > h1 {
+  padding-bottom: 50px;
+}
+
+.benefits__items {
+  border: 1px white solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-color: rgb(136, 52, 7);
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.benefits__container {
+  display: flex;
+  justify-content: center;
+}
+
+.benefits__items__wrapper {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 400px 400px;
+  gap: 30px;
+  /* grid-row: 200px 200px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px; */
+}

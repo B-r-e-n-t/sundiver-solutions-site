@@ -1,10 +1,14 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  /* background: #fff; */
 }
 
 h1 {
   text-align: center;
+  font-size: 60px;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 .cards__container {
@@ -30,6 +34,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  background-color: white;
 }
 
 .cards__item__link {

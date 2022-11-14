@@ -12,19 +12,19 @@ function Cards() {
             {/* cards to shows our services */}
 
             <CardItem
-              // src="images/img-9.jpg"
+              src="images/Architect.jpg"
               text="Full-Stack Architectural Design and Implementation"
               path="/architectural"
             />
 
             <CardItem
-              // src="images/img-9.jpg"
+              src="images/Software.jpg"
               text="Full-Stack Software Development"
               path="/software"
             />
 
             <CardItem
-              // src="images/img-9.jpg"
+              src="images/website.jpg"
               text="Website Design and Development"
               path="/website"
             />
