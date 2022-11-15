@@ -1,67 +1,48 @@
-import React from "react";
+import "./ContactForm.css";
 
-class Form extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-    };
-  }
-  render() {
-    return (
-      <div className="form">
-        <form
-          id="contact-form"
-          onSubmit={this.handleSubmit.bind(this)}
-          method="POST"
-        >
-          <div className="form-group">
-            <label htmlFor="name">Name</label>
-            <input
-              type="text"
-              className="form-control"
-              value={this.state.name}
-              onChange={this.onNameChange.bind(this)}
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
-            <input
-              type="email"
-              className="form-control"
-              aria-describedby="emailHelp"
-              value={this.state.email}
-              onChange={this.onEmailChange.bind(this)}
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea
-              className="form-control"
-              rows="5"
-              value={this.state.message}
-              onChange={this.onMessageChange.bind(this)}
-            />
-          </div>
-          <button type="submit" className="btn submit">
-            Submit
-          </button>
-        </form>
-      </div>
-    );
-  }
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
-  }
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
-  }
-  onMessageChange(event) {
-    this.setState({ message: event.target.value });
-  }
-  handleSubmit(event) {}
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
+function ContactForm() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_s0r826q",
+        "template_cimfefk",
+        form.current,
+        "l01QI9bcyRnKwX-MP"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  return (
+    <div className="contact-container">
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form>
+      <p>
+        We would love to hear about your idea! No commitment, No pressure. Start
+        a discussion with us today.
+      </p>
+    </div>
+  );
 }
 
-export default Form;
+export default ContactForm;

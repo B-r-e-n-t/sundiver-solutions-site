@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
-import Form from "../ContactForm";
+import ContactForm from "../ContactForm";
 
 function ContactUs() {
   return (
@@ -14,7 +14,7 @@ function ContactUs() {
         follow up with proposed next steps, or we will refer you to another
         provider who is a better fit. Request a discovery session today!
       </p>
-      <Form />
+      <ContactForm />
       <Footer />
     </>
   );

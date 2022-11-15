@@ -4,6 +4,7 @@ import HeroSection from "../HeroSection";
 import Cards from "../Cards";
 import Footer from "../Footer";
 import ServiceBenefits from "../ServiceBenefits";
+import ContactForm from "../ContactForm";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <HeroSection />
       <Cards />
       <ServiceBenefits />
+      <ContactForm />
       <Footer />
     </>
   );

@@ -1,0 +1,52 @@
+.contact-container {
+  display: flex;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50%;
+  height: 400px;
+  font-size: 16px;
+  color: white;
+  justify-content: center;
+  background-color: black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+input {
+  width: 90%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+input:focus {
+  border: 2px solid red;
+}
+
+textarea {
+  min-height: 100px;
+  width: 90%;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+textarea:focus {
+  border: 2px solid red;
+}
+
+.contact-container > p {
+  font-size: 35px;
+  width: 50%;
+}
+
+label {
+  margin-top: 1rem;
+}
