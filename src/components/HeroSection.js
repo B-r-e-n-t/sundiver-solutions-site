@@ -6,7 +6,13 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/images/HeroVideo.mp4" autoPlay loop muted />
+      <video
+        className="video-hero"
+        src="/images/HeroVideo.mp4"
+        autoPlay
+        loop
+        muted
+      />
       <h1>Fractional CTO and full-stack software development</h1>
       {/* <p>
         From Fractional CTO services to web development, we give your ideas

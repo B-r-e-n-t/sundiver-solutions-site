@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .portfolio,
@@ -93,10 +93,4 @@
   padding: 50px;
   margin: auto;
   width: 100vh;
-}
-
-.video {
-  border: 1px solid black;
-  width: 150px;
-  height: 150px;
 }
