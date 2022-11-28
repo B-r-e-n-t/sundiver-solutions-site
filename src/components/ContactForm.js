@@ -29,6 +29,7 @@ function ContactForm() {
   return (
     <div className="contact-container">
       <form ref={form} onSubmit={sendEmail}>
+        <h1>Contact Us</h1>
         <label>Name</label>
         <input type="text" name="user_name" />
         <label>Email</label>
@@ -38,8 +39,15 @@ function ContactForm() {
         <input className="form-button" type="submit" value="Send" />
       </form>
       <p>
-        We would love to hear about your idea! No commitment, No pressure. Start
-        a discussion with us today.
+        We would love to hear about your idea! 
+        <br/>
+        <br/>
+        🔹 No commitment.
+        <br/>
+        🔹 No pressure. 
+        <br/>
+        <br/>
+        Start a discussion with us today.
       </p>
     </div>
   );

@@ -6,19 +6,19 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video
+      <img
         className="video-hero"
-        src="/images/HeroVideo.mp4"
-        autoPlay
-        loop
-        muted
+        src="images/background.jpg"
+        // autoPlay
+        // loop
+        // muted
       />
-      <h1>Fractional CTO and full-stack software development</h1>
-      {/* <p>
-        From Fractional CTO services to web development, we give your ideas
-        superior solutions.
-      </p> */}
-      <div className="hero-btns">
+      <div className="hero-left">
+        <img src="/images/logo.png" className="logo-big"/>
+      </div>
+      
+      <div className="hero-right">
+        <h1>Custom Software Development & Architecture</h1>
         <Button
           className="btns"
           buttonStyle="btn--outline"
@@ -26,14 +26,6 @@ function HeroSection() {
         >
           Tell us what you need
         </Button>
-        {/* <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          Learn More
-           <i className="far fa-play-circle" />
-        </Button> */}
       </div>
     </div>
   );

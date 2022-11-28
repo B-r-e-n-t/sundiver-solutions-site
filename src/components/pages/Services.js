@@ -1,12 +1,19 @@
 import React from "react";
 import "../../App.css";
-
-import Cards from "../Cards";
+import ContactForm from "../ContactForm";
 import Footer from "../Footer";
 
 function Services() {
   return (
     <>
+  <img
+        className="video-hero"
+        src="images/background.jpg"
+        // autoPlay
+        // loop
+        // muted
+      />
+
       <div className="services-wrap">
         <h1>Services and Solutions</h1>
         <p>
@@ -25,7 +32,35 @@ function Services() {
           launch without the expense and commitment of hiring a full-time CTO or
           development team.
         </p>
-        <Cards />
+          <div className="CTA-services">
+              <p>He stared out the window at the snowy field. He'd been stuck 
+                in the house for close to a month and his only view of the outside 
+                world was through the window. There wasn't much to see. It was 
+                mostly just the field with an occasional bird or small animal who 
+                ventured into the field. As he continued to stare out the window, 
+                he wondered how much longer he'd be shackled to the steel bar inside the house.</p>
+                <img className="services-img" src="images/Architect.jpg"/>
+          </div>
+          <div className="CTA-services">
+              <img className="services-img" src="images/Software.jpg"/>
+              <p>He stared out the window at the snowy field. He'd been stuck 
+                in the house for close to a month and his only view of the outside 
+                world was through the window. There wasn't much to see. It was 
+                mostly just the field with an occasional bird or small animal who 
+                ventured into the field. As he continued to stare out the window, 
+                he wondered how much longer he'd be shackled to the steel bar inside the house.</p>
+                
+          </div>
+          <div className="CTA-services">
+              <p>He stared out the window at the snowy field. He'd been stuck 
+                in the house for close to a month and his only view of the outside 
+                world was through the window. There wasn't much to see. It was 
+                mostly just the field with an occasional bird or small animal who 
+                ventured into the field. As he continued to stare out the window, 
+                he wondered how much longer he'd be shackled to the steel bar inside the house.</p>
+                <img className="services-img" src="images/Website.jpg"/>
+          </div>
+        <ContactForm />
         <Footer />
       </div>
     </>

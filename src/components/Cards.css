@@ -6,17 +6,15 @@
 h1 {
   text-align: center;
   font-size: 60px;
-  color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  color: black;
 }
 
 .cards__container {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
+  max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -33,7 +31,6 @@ h1 {
   display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px;
   background-color: white;
 }
 
@@ -42,9 +39,8 @@ h1 {
   flex-flow: column;
   width: 100%;
   box-shadow: 0 2px 10px rgb(56, 55, 56);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  /* -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
 }

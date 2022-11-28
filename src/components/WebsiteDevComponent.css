@@ -1,0 +1,16 @@
+.website-wrapper {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .website-wrapper > p {
+    font-size: 20px;
+    width: 50%;
+  }
+  
+  .services-video {
+    width: 480px;
+    height: 270px;
+  }

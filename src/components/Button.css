@@ -4,29 +4,28 @@
 
 .btn {
   padding: 9px 20px;
-  border-radius: 3px;
   outline: none;
   border: none;
   cursor: pointer;
 }
 
 .btn--primary {
-  background-color: white;
-  color: black;
+  background: linear-gradient(#5972f0, #2240e8);
+  color: rgb(251, 249, 249);
   border: 1px solid black;
 }
 
 .btn--outline-nav {
-  background-color: transparent;
-  color: black;
+  background: linear-gradient(#5972f0, #2240e8);
+  color: rgb(251, 249, 249);
   padding: 9px 20px;
   border: 1px solid black;
   transition: all 0.3s ease-out;
 }
 
 .btn--outline {
-  background-color: white;
-  color: black;
+  background: linear-gradient(#5972f0, #2240e8);
+  color: rgb(251, 249, 249);
   padding: 9px 20px;
   border: 1px solid black;
   transition: all 0.3s ease-out;

@@ -6,6 +6,15 @@ import ContactForm from "../ContactForm";
 function ContactUs() {
   return (
     <>
+  <img
+        className="video-hero"
+        src="images/background.jpg"
+        // autoPlay
+        // loop
+        // muted
+      />
+
+
       <p className="form-intro">
         Before we begin working with a new client, we want to make sure we are a
         good fit for you. In our free 30 minute discovery session, we get an
