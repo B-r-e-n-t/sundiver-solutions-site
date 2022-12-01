@@ -85,17 +85,6 @@ p {
   padding-bottom: 200px;
 }
 
-.services-wrap > p {
-  padding-top: 50px;
-  width: 100vh;
-  display: flex;
-  margin: auto;
-}
-
-.services-wrap {
-  width: 100%;
-}
-
 .form-intro {
   display: flex;
   padding: 50px;
@@ -103,15 +92,6 @@ p {
   width: 100vh;
 }
 
-.services-img {
-  width: 40%;
-  border: 1px solid black;
-}
-
-.CTA-services {
-  display: flex;
-  margin: 30px;
-}
 
 .video-hero {
   object-fit: cover;
