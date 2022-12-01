@@ -7,6 +7,10 @@
   justify-content: center;
 }
 
+.contact-container > h1 {
+  color: black;
+}
+
 form {
   display: flex;
   align-items: center;
@@ -14,7 +18,7 @@ form {
   width: 50%;
   height: 500px;
   font-size: 16px;
-  color: rgb(6, 6, 6);
+  color: black;
   justify-content: center;
   background-color: rgb(224, 221, 221);
   padding: 20px;

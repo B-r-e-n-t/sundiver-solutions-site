@@ -5,18 +5,22 @@ import "./HeroSection.css";
 
 function HeroSection() {
   return (
-    <div className="hero-container">
-      <img
+    <>
+    <img
         className="video-hero"
         src="images/background.jpg"
-        // autoPlay
-        // loop
-        // muted
       />
+    <div className="hero-container">
+      {/* <img
+        className="video-hero"
+        src="images/background.jpg"
+      /> */}
+
       <div className="hero-left">
         <img src="/images/logo.png" className="logo-big"/>
       </div>
       
+
       <div className="hero-right">
         <h1>Custom Software Development & Architecture</h1>
         <Button
@@ -28,6 +32,7 @@ function HeroSection() {
         </Button>
       </div>
     </div>
+    </>
   );
 }
 

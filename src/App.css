@@ -68,14 +68,14 @@ p {
   font-size: 100px;
 }
 
-.software {
+/* .software {
   /* background-image: url("/Users/JBMSH/repos/sundiver-solutions-site/public/images/james-day-5YWf-5hyZcw-unsplash.jpg"); */
-  background-position: center;
+  /* background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
+  background-repeat: no-repeat; */
+  /* color: #fff; */
+  /* font-size: 100px; 
+} */
 
 #contact-form {
   display: flex;
@@ -119,4 +119,16 @@ p {
   height: 100%;
   position: fixed;
   z-index: -1;
+}
+
+.profile-1-img,
+.profile-2-img {
+  width: 30%
+}
+
+.profile-one,
+.profile-two{
+  display: flex;
+  padding: 50px;
+  gap: 50px;
 }
