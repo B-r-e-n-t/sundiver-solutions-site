@@ -2,31 +2,31 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 
-function Cards() {
+function PortfolioCardsComponent() {
   return (
     <div className="cards">
-      <h1>What can we do for you?</h1>
+      <h1>Please take a look at our past projects</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             {/* cards to shows our services */}
 
             <CardItem
-              src="images/Architect.jpg"
-              text="Full-Stack Architectural Design and Implementation"
-              path="/architectural"
+              src="/images/wave.png"
+              text="Wave: Accounting Software"
+              path=""
             />
 
             <CardItem
-              src="images/Software.jpg"
+              src="/images/one.png"
               text="Full-Stack Software Development"
-              path="/software"
+              path=""
             />
 
             <CardItem
-              src="images/website.jpg"
+              src="/images/espn.png"
               text="Website Design and Development"
-              path="/website"
+              path=""
             />
           </ul>
         </div>
@@ -35,4 +35,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default PortfolioCardsComponent;
