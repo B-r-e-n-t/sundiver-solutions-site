@@ -18,7 +18,7 @@ export default function AboutUs() {
           of the house had tears in her eyes.</p>
           <img className="profile-1-img" src="images/profile1.jpg"/>
       </div>
-
+              <hr/>
 
       <div className="profile-two">
         <img className="profile-2-img" src="images/profile2.jpg"/>

@@ -15,10 +15,6 @@ function HeroSection() {
         className="video-hero"
         src="images/background.jpg"
       /> */}
-
-      <div className="hero-left">
-        <img src="/images/logo.png" className="logo-big"/>
-      </div>
       
 
       <div className="hero-right">
@@ -30,6 +26,10 @@ function HeroSection() {
         >
           Tell us what you need
         </Button>
+      </div>
+
+      <div className="hero-left">
+        <img src="/images/office.png" className="logo-big"/>
       </div>
     </div>
     </>

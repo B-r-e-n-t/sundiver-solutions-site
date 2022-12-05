@@ -1,13 +1,18 @@
 .benefits-wrapper {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 .growth-img {
   width: 45%;
-  height: 400px;
-  opacity: 0.7;
+  height: 450px;
+}
+
+.benefits-explained {
+  width: 40%;
+  line-height: 2;
+  justify-content: center;
+  align-items: left;
 }
 
 /* .benefits__items {
