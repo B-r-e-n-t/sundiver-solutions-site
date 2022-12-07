@@ -18,7 +18,10 @@ function HeroSection() {
       
 
       <div className="hero-right">
-        <h1>Custom Software Development & Architecture</h1>
+        <h1>Software Development & Architecture</h1>
+        <h3>🔹 Passionate About Creating</h3>
+        <h3>🔹 Decicated To Making You Happy</h3>
+        <h3>🔹 Motivated To See Your Ideas Come To Life</h3>
         <Button
           className="btns"
           buttonStyle="btn--outline"
