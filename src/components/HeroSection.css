@@ -20,6 +20,8 @@
   /* object-fit: cover; */
   /* justify-content: center; */
   text-decoration: none;
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);;
 }
 
 .logo-big {
@@ -48,12 +50,13 @@
   flex-direction: column;
   /* justify-content: space-between; */
   gap: 40px;
+  color: white;
 }
 
 .hero-right > h1 {
   /* background-color: white;
   opacity: 40%; */
-  color: rgb(2, 2, 2);
+  color: white;
   /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black; */
   font-family: "Montserrat", sans-serif;

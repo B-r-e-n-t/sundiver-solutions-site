@@ -26,3 +26,43 @@
   background-color: rgb(136, 52, 7);
   margin-bottom: 100px;
 } */
+
+.benefits-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.benefits {
+  border-radius: 50%;
+  background-color: #004E95;
+  width: 200px;
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  /* animation-duration: 2s; */
+  animation-iteration-count: infinite;
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+
+.one {
+  animation-duration: 1.25s;
+}
+.onefive {
+  animation-duration: 1.5s;
+}
+.two {
+  animation-duration: 2s;
+}
+.twofive {
+  animation-duration: 2.5s;
+}
+
+@keyframes bounce-1 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-100px); }
+  100% { transform: translateY(0); }
+}

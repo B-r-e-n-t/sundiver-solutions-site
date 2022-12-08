@@ -1,6 +1,8 @@
 import React from "react";
 import "../../App.css";
 import PortfolioCardsComponent from "../PortfolioCardsComp";
+import ContactForm from "../ContactForm";
+import Footer from "../Footer"
 
 export default function Portfolio() {
   return (
@@ -12,6 +14,8 @@ export default function Portfolio() {
     <h1 className="portfolio">Portfolio</h1>;
 
     <PortfolioCardsComponent />
+    <ContactForm />
+    <Footer />
   </>
   )
 }

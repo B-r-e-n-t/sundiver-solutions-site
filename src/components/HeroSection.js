@@ -18,10 +18,10 @@ function HeroSection() {
       
 
       <div className="hero-right">
-        <h1>Software Development & Architecture</h1>
-        <h3>🔹 Passionate About Creating</h3>
-        <h3>🔹 Decicated To Making You Happy</h3>
-        <h3>🔹 Motivated To See Your Ideas Come To Life</h3>
+        <h1>Custom Software Development & Architecture</h1>
+        <h3>🔹 Motivated To See Your Ideas Come To Life </h3>
+        <h3>🔹 Dedicated To Making Our Clients Happy</h3>
+        <h3>🔹 Passionate About Creating Easy to Use Software</h3>
         <Button
           className="btns"
           buttonStyle="btn--outline"
@@ -32,7 +32,7 @@ function HeroSection() {
       </div>
 
       <div className="hero-left">
-        <img src="/images/office.png" className="logo-big"/>
+        <img src="/images/office2.png" className="logo-big"/>
       </div>
     </div>
     </>
