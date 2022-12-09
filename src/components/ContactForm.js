@@ -30,23 +30,19 @@ function ContactForm() {
     <div className="contact-container">
       <div className="form-container">
         <form ref={form} onSubmit={sendEmail}>
-          {/* <label>Name</label> */}
           <input type="text" name="user_name" placeholder="Name"/>
-          {/* <label>Email</label> */}
           <input type="email" name="user_email" placeholder="Email"/>
-          {/* <label>Message</label> */}
           <textarea name="message" placeholder="Tell us about your idea"/>
           <input className="form-button" type="submit" value="Send"/>
         </form>
       </div>
       <p>
-        We would love to hear about your idea! 
+      Start a discussion with us today.
+        <br/>
         <br/>
         🔹 No commitment.
         <br/>
         🔹 No pressure. 
-        <br/>
-        Start a discussion with us today.
         <img src="/images/officeContact.png" className="contact-image"/>
       </p>
     </div>

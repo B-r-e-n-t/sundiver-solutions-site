@@ -15,18 +15,6 @@
   align-items: left;
 }
 
-/* .benefits__items {
-  border: 1px white solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  color: white;
-  background-color: rgb(136, 52, 7);
-  margin-bottom: 100px;
-} */
-
 .benefits-container {
   display: flex;
   justify-content: space-around;
@@ -42,7 +30,6 @@
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  /* animation-duration: 2s; */
   animation-iteration-count: infinite;
   animation-name: bounce-1;
   animation-timing-function: linear;

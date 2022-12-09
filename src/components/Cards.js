@@ -13,7 +13,7 @@ function Cards() {
 
             <CardItem
               src="images/Architect.jpg"
-              text="Full-Stack Architectural Design and Implementation"
+              text="Full-Stack Architectural Design & Implementation"
               path="/architectural"
             />
 
@@ -25,7 +25,7 @@ function Cards() {
 
             <CardItem
               src="images/website.jpg"
-              text="Website Design and Development"
+              text="Website Design, Development, & Hosting"
               path="/website"
             />
           </ul>

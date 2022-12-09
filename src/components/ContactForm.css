@@ -1,7 +1,5 @@
 .contact-container {
   display: flex;
-  /* margin: 50px; */
-  /* gap: 50px;  */
   margin-top: 50px;
   flex-wrap: wrap;
   justify-content: center;
@@ -24,7 +22,6 @@ form {
   padding: 20px;
   min-width: 450px;
   gap: 30px;
-  /* opacity: 0.7; */
 }
 
 input {
@@ -32,7 +29,6 @@ input {
   font-size: 20px;
   height: 45px;
   outline: none;
-  /* border-radius: 5px; */
   border: 1px solid rgb(14, 13, 13);
 }
 
@@ -52,7 +48,6 @@ textarea {
   width: 90%;
   padding: 7px;
   outline: none;
-  /* border-radius: 5px; */
   border: 1px solid rgb(11, 9, 9);
 }
 
@@ -65,10 +60,8 @@ textarea:focus {
   width: 40%;
   margin-top: 125px;
   min-width: 400px;
-  /* margin: auto; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   color: white;
 }

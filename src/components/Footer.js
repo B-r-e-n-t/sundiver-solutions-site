@@ -6,9 +6,6 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer-container">
-      {/* <section className="footer-contact-us"></section>
-      <div className="footer-links">
-        <div className="footer-link-wrapper"> */}
       <div className="footer-link-items">
         <Link to="/about-us" style={{ textDecoration: 'none', color: 'white'}}>About Us</Link>
         <Link to="/careers" style={{ textDecoration: 'none', color: 'white'}}>Careers</Link>
@@ -17,8 +14,6 @@ function Footer() {
         <Link to="/terms-of-service" style={{ textDecoration: 'none', color: 'white'}}>Terms of Service</Link>
       </div>
     </div>
-    //   </div>
-    // </div>
   );
 }
 
