@@ -12,7 +12,7 @@ function HeroSection() {
       />
     <div className="hero-container">
       
-      <div className="hero-right">
+      <div className="hero-left">
         <h1>Custom Software Development & Architecture</h1>
         <h3>🔹 Motivated To See Your Ideas Come To Life </h3>
         <h3>🔹 Dedicated To Making Our Clients Happy</h3>
@@ -26,7 +26,7 @@ function HeroSection() {
         </Button>
       </div>
 
-      <div className="hero-left">
+      <div className="hero-right">
         <img src="/images/office2.png" className="logo-big"/>
       </div>
     </div>

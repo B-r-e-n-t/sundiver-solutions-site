@@ -12,14 +12,14 @@
 .btn--primary {
   background: linear-gradient(#0B41C4, #1256CC);
   color: rgb(251, 249, 249);
-  border: 2px solid rgb(28, 18, 162);
+  /* border: 2px solid rgb(28, 18, 162); */
 }
 
 .btn--outline-nav {
   background: linear-gradient(#0B41C4, #1256CC);
   color: rgb(251, 249, 249);
   padding: 9px 20px;
-  border: 2px solid rgb(28, 18, 162);
+  /* border: 2px solid rgb(28, 18, 162); */
   transition: all 0.3s ease-out;
 }
 
@@ -27,7 +27,7 @@
   background: linear-gradient(#0B41C4, #1256CC);
   color: rgb(251, 249, 249);
   padding: 9px 20px;
-  border: 2px solid rgb(28, 18, 162);
+  /* border: 2px solid rgb(28, 18, 162); */
   transition: all 0.3s ease-out;
 }
 

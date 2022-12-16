@@ -19,7 +19,7 @@ function Cards() {
 
             <CardItem
               src="images/Software.jpg"
-              text="Full-Stack Software Development"
+              text="Full-Stack Feature Software Development"
               path="/software"
             />
 

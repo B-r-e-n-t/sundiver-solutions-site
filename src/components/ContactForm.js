@@ -35,6 +35,7 @@ function ContactForm() {
           <textarea name="message" placeholder="Tell us about your idea"/>
           <input className="form-button" type="submit" value="Send"/>
         </form>
+        {/* <h4 className="thank-you">Thank you for contacting us! We will be in touch with you soon.</h4> */}
       </div>
       <p>
       Start a discussion with us today.

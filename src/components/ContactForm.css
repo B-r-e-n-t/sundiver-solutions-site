@@ -1,12 +1,12 @@
 .contact-container {
   display: flex;
   margin-top: 50px;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
   background-color: #004E95;
   height: 800px;
   clip-path: polygon(0% 10%, 100% -2%, 100% 100%, 0 90%);
-  gap: 50px;
+  /* gap: 50px; */
 }
 
 form {
@@ -19,7 +19,7 @@ form {
   font-size: 20px;
   color: rgb(1, 0, 0);
   justify-content: center;
-  padding: 20px;
+  /* padding: 20px; */
   min-width: 450px;
   gap: 30px;
 }
@@ -66,10 +66,6 @@ textarea:focus {
   color: white;
 }
 
-label {
-  margin-top: 1rem;
-}
-
 .form-intro {
   font-size: 60px;
   width: 100%;
@@ -83,4 +79,22 @@ label {
 
 .bold {
   font-weight: bolder;
+}
+
+.thank-you {
+  color: white;
+}
+
+@media(max-width: 863px) {
+  .contact-container > p {
+    margin-top: 300px;
+  }
+
+  .contact-image {
+    display: none;
+  }
+
+  .contact-container {
+    height: 1000px;
+  }
 }

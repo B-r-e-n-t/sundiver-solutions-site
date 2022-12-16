@@ -36,3 +36,7 @@ p {
   padding: 50px;
   gap: 50px;
 }
+
+.profile-info {
+  font-size: 900;
+}
