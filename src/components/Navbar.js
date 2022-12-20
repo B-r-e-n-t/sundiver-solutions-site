@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import "../App.css";
 import { Button } from "./Button";
 
 function Navbar() {
@@ -27,6 +28,12 @@ function Navbar() {
 
   return (
     <>
+
+{/* <img
+        className="video-hero"
+        src="images/comets.jpg"
+      /> */}
+
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>

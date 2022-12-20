@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import "../App.css";
 import { Button } from "./Button";
@@ -27,7 +29,7 @@ function HeroSection() {
       </div>
 
       <div className="hero-right">
-        <img src="/images/office2.png" className="logo-big"/>
+        <img src="/images/HeroImage.png" className="logo-big"/>
       </div>
     </div>
     </>

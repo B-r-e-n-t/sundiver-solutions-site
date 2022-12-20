@@ -25,7 +25,7 @@ function Cards() {
 
             <CardItem
               src="images/website.jpg"
-              text="Website Design, Development, & Hosting"
+              text="Web Design and Development"
               path="/website"
             />
           </ul>

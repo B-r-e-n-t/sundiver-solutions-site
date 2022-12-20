@@ -33,21 +33,28 @@ function ContactForm() {
           <input type="text" name="user_name" placeholder="Name"/>
           <input type="email" name="user_email" placeholder="Email"/>
           <textarea name="message" placeholder="Tell us about your idea"/>
-          <input className="form-button" type="submit" value="Send"/>
+          <input className="form-button" type="submit" value="Submit"/>
         </form>
-        {/* <h4 className="thank-you">Thank you for contacting us! We will be in touch with you soon.</h4> */}
       </div>
-      <p>
-      Start a discussion with us today.
-        <br/>
-        <br/>
-        🔹 No commitment.
-        <br/>
-        🔹 No pressure. 
-        <img src="/images/officeContact.png" className="contact-image"/>
-      </p>
+      <div className="form-right">
+            <p className="top-of-form">
+            Schedule a <span className="gold">free consultation</span> and start a discussion with us today. We will
+            get back in touch with you within 24 hours.
+            </p>
+            <div className="bottom-of-form">
+              <p>
+                🔹 No cost
+                <br/>
+                🔹 No commitment
+                <br/>
+                🔹 No pressure
+                <br/>
+              </p>
+              <img src="/images/JamesSolo.png" className="contact-image"/>
+            </div>
+      </div>
+      
     </div>
-  );
-}
+  )}
 
 export default ContactForm;
