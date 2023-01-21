@@ -17,8 +17,8 @@ form {
   /* margin-top: 50px; */
   flex-direction: column;
   /* width: 40%; */
-  height: 600px;
-  width: 600px;
+  height: auto;
+  width: 100%;
   font-size: 20px;
   color: rgb(1, 0, 0);
   /* justify-content: center; */
@@ -31,7 +31,7 @@ form {
 }
 
 input {
-  width: 90%;
+  width: 100%;
   font-size: 20px;
   height: 45px;
   outline: none;
@@ -52,7 +52,7 @@ input:focus {
 textarea {
   min-height: 100px;
   height: 200px;
-  width: 90%;
+  width: 100%;
   padding: 7px;
   outline: none;
   border: 1px solid rgb(11, 9, 9);

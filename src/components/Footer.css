@@ -2,10 +2,12 @@
   background-color: white;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   justify-content: space-around;
   font-family: "Montserrat", sans-serif;
   color: black;
-  height: 100%;
+  width: 100%;
   white-space: normal;
   overflow: hidden;
 }
@@ -17,6 +19,8 @@
 .footer-link-items-one {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   gap: 10px;
   text-decoration: none;
@@ -35,10 +39,13 @@
 .footer-link-items-two {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   gap: 10px;
   text-decoration: none;
   list-style: none;
+  color: black;
   margin-top: 50px;
 }
 
@@ -58,6 +65,8 @@ p {
 .footer-link-items-three {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
   gap: 20px;
 }

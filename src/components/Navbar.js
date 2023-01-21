@@ -40,18 +40,9 @@ function Navbar() {
             <img src="/images/logo.png" className="logo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+            <i className={click ? "fas fa-bars" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            {/* <li className="nav-item">
-              <Link
-                to="/portfolio"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Portfolio
-              </Link>
-            </li> */}
             <li className="nav-item">
               <Link
                 to="/services"
@@ -70,8 +61,17 @@ function Navbar() {
                 About Us
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/contact-us"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Contact Us
+              </Link>
+            </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline-nav">CONTACT US</Button>}
+          {/* {button && <Button buttonStyle="btn--outline-nav">CONTACT US</Button>} */}
         </div>
       </nav>
     </>

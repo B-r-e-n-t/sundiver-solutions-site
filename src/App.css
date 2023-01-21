@@ -14,11 +14,10 @@ p {
 }
 
 .form-intro {
-  display: flex;
-  padding: 50px;
-  margin: auto;
-  width: 100vh;
-}
+  font-size: 4.5vw;
+  text-align: center;
+  margin-top: 50px;
+} 
 
 
 .video-hero {
@@ -43,4 +42,10 @@ p {
 
 .profile-info {
   font-size: 900;
+}
+
+@media(max-width: 1000px) {
+  .form-intro {
+    font-size: 6.5vw;
+  }
 }

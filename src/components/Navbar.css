@@ -86,16 +86,16 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 35vh;
+    height: 43vh;
     position: absolute;
-    top: 300px;
+    top: 100px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
   }
 
   .nav-menu.active {
-    background: black;
+    background: #0B41C4;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -104,7 +104,6 @@
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
     width: 100%;
     display: table;
     color: white;
